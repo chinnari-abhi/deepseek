@@ -1,0 +1,286 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:18:32] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:18:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:18:42] "[31m[1mGET /chat HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:18:49] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:19:02] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:21:30] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:21:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:21:31] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:24:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:24:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:24:51] "[31m[1mGET /chat HTTP/1.1[0m" 405 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:25:12] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:404 Client Error: Not Found for url: https://api.deepseek.com/v1/chat
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:25:12] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:25:30] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:404 Client Error: Not Found for url: https://api.deepseek.com/v1/chat
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:25:30] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:28:06] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:28:07] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:30:00] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:30:00] "POST /chat HTTP/1.1" 200 -
+ERROR:root:401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:32:20] "POST /chat HTTP/1.1" 200 -
+ERROR:root:401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:32:23] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:43:33] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:401 Client Error: Unauthorized for url: https://openrouter.ai/api/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:43:34] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:43:58] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:43:58] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:44:12] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:44:13] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:53:51] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:53:59] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:55:00] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:57:43] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:58:18] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 10:58:51] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:00:59] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:03:09] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:03:35] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:03:42] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:05:00] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:05:08] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:09:03] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:09:04] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:11:47] "OPTIONS /chat HTTP/1.1" 200 -
+ERROR:root:404 Client Error: Not Found for url: https://openrouter.ai/api/v1/chat/completions
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:11:48] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:12:29] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:12:37] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:16:06] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:16:13] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\abhis\\Desktop\\deepseek-chat\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.166:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 634-627-859
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:19:08] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:19:12] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:19:38] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:19:46] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:20:23] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:20:45] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:24:25] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:24:42] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:28:29] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:28:33] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:28:39] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:28:48] "POST /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:29:04] "OPTIONS /chat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Mar/2025 11:29:27] "POST /chat HTTP/1.1" 200 -
