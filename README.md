@@ -20,12 +20,10 @@ DeepSeek Chat is a web-based chat application that enables real-time communicati
 ### Backend:
 - Python
 - Flask
-- WebSockets (if applicable)
+
 
 ### Frontend:
-- React.js
-- JavaScript
-- CSS
+- React.js+vite
 
 ## Setup and Installation
 
@@ -60,11 +58,8 @@ DeepSeek Chat is a web-based chat application that enables real-time communicati
    ```sh
    pip install -r requirements.txt
    ```
-4. If `requirements.txt` is not available, generate it by running:
-   ```sh
-   pip freeze > requirements.txt
-   ```
-5. Run the Flask server:
+
+4. Run the Flask server:
    ```sh
    python app.py
    ```
@@ -80,12 +75,12 @@ DeepSeek Chat is a web-based chat application that enables real-time communicati
    ```
 3. Start the React development server:
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## Usage
 - Ensure both frontend and backend servers are running.
-- Access the application at `http://localhost:3000/`.
+- Access the application at localhost
 - Start chatting in real time!
 
 ## Contributing
